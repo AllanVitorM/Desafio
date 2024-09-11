@@ -7,7 +7,7 @@ function LetraA(str) {
 }
 
 function BuscarLetraA() {
-  const text = letraprompt("Digite seu texto:\n");
+  const text = letraprompt("Digite seu texto e descubra quantos 'A' tem: ");
 
   const quant = LetraA(text);
 
